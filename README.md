@@ -35,5 +35,10 @@ Version standard
 Version minifier
 
 ```html showLineNumbers
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mr-KAM/x.css@main/x.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mr-KAM/x.css@main/x.css">
 ```
+	
+	
+~~~~ html
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mr-KAM/x.css@main/x.css">
+~~~~
