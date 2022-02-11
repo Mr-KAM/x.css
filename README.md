@@ -1,3 +1,6 @@
+![Logo X.css](Documentation/Img/x.png)
+***x.css, la performence dans la simplicité***
+
 # 1. x.css, c'est quoi ?<a id="1"></a>
 
 >Rendez-le aussi simple que possible, mais pas plus simple.
@@ -20,6 +23,7 @@ C'est bien domage, mais c'est vrai.
 Il est libre et peut être personnalisé a comme vous le sentez si vous voulez y ajouter d'autre fonctionnalités CSS. Il ne contient pas de ***js***, juste du code ***css***.
 
 Alors si vous cherchez un moyen super simple et rapide pour concevoir votre site web sans gaspiller de l'energie à l'UI, ***x.css*** est fait pour vous.
+![100% css](Documentation/Img/Image1.png)
 
 # 2. Comment l'utiliser?<a id="2"></a>
 
@@ -57,4 +61,4 @@ Après avoir ajouté ***x.css*** à votre site, vous pouvez l'utiliser dans votr
 
 # 3. Documentation
 
-Vous trouverez la documentation ici:[Documentation de x.css](documentation_x.css.md "Comment utiliser x.css")
+Vous trouverez la documentation ici:[Documentation x.css](Documentation/documentation_x.css.md "Comment utiliser x.css")

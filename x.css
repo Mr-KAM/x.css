@@ -4,7 +4,9 @@ html {
     box-sizing: border-box
 }
 
-*,*:before,*:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit
 }
 
@@ -18,7 +20,17 @@ body {
     margin: 0
 }
 
-article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
     display: block
 }
 
@@ -26,7 +38,10 @@ summary {
     display: list-item
 }
 
-audio,canvas,progress,video {
+audio,
+canvas,
+progress,
+video {
     display: inline-block
 }
 
@@ -39,7 +54,8 @@ audio:not([controls]) {
     height: 0
 }
 
-[hidden],template {
+[hidden],
+template {
     display: none
 }
 
@@ -47,7 +63,8 @@ a {
     background-color: transparent
 }
 
-a:active,a:hover {
+a:active,
+a:hover {
     outline-width: 0
 }
 
@@ -57,7 +74,8 @@ abbr[title] {
     text-decoration: underline dotted
 }
 
-b,strong {
+b,
+strong {
     font-weight: bolder
 }
 
@@ -74,7 +92,8 @@ small {
     font-size: 80%
 }
 
-sub,sup {
+sub,
+sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
@@ -97,8 +116,11 @@ img {
     border-style: none
 }
 
-code,kbd,pre,samp {
-    font-family: monospace,monospace;
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
     font-size: 1em
 }
 
@@ -108,7 +130,11 @@ hr {
     overflow: visible
 }
 
-button,input,select,textarea,optgroup {
+button,
+input,
+select,
+textarea,
+optgroup {
     font: inherit;
     margin: 0
 }
@@ -117,24 +143,35 @@ optgroup {
     font-weight: bold
 }
 
-button,input {
+button,
+input {
     overflow: visible
 }
 
-button,select {
+button,
+select {
     text-transform: none
 }
 
-button,[type=button],[type=reset],[type=submit] {
+button,
+[type=button],
+[type=reset],
+[type=submit] {
     -webkit-appearance: button
 }
 
-button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner {
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
     border-style: none;
     padding: 0
 }
 
-button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring {
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
     outline: 1px dotted ButtonText
 }
 
@@ -156,11 +193,13 @@ textarea {
     overflow: auto
 }
 
-[type=checkbox],[type=radio] {
+[type=checkbox],
+[type=radio] {
     padding: 0
 }
 
-[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
     height: auto
 }
 
@@ -179,8 +218,9 @@ textarea {
 }
 
 /* Fin extraction */
-html,body {
-    font-family: Verdana,sans-serif;
+html,
+body {
+    font-family: Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5
 }
@@ -217,8 +257,13 @@ h6 {
     font-family: serif
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Segoe UI",Arial,sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0
 }
@@ -246,7 +291,8 @@ a {
     color: inherit
 }
 
-.table,.table-all {
+.table,
+.table-all {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
@@ -257,7 +303,8 @@ a {
     border: 1px solid #ccc
 }
 
-.bordered tr,.table-all tr {
+.bordered tr,
+.table-all tr {
     border-bottom: 1px solid #ddd
 }
 
@@ -273,26 +320,35 @@ a {
     background-color: #f1f1f1
 }
 
-.hoverable tbody tr:hover,.ul.hoverable li:hover {
+.hoverable tbody tr:hover,
+.ul.hoverable li:hover {
     background-color: #ccc
 }
 
-.centered tr th,.centered tr td {
+.centered tr th,
+.centered tr td {
     text-align: center
 }
 
-.table td,.table th,.table-all td,.table-all th {
+.table td,
+.table th,
+.table-all td,
+.table-all th {
     padding: 8px 8px;
     display: table-cell;
     text-align: left;
     vertical-align: top
 }
 
-.table th:first-child,.table td:first-child,.table-all th:first-child,.table-all td:first-child {
+.table th:first-child,
+.table td:first-child,
+.table-all th:first-child,
+.table-all td:first-child {
     padding-left: 16px
 }
 
-.btn,.button {
+.btn,
+.button {
     border: none;
     display: inline-block;
     padding: 8px 16px;
@@ -307,10 +363,11 @@ a {
 }
 
 .btn:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-.btn,.button {
+.btn,
+.button {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -319,20 +376,25 @@ a {
     user-select: none
 }
 
-.disabled,.btn:disabled,.button:disabled {
+.disabled,
+.btn:disabled,
+.button:disabled {
     cursor: not-allowed;
     opacity: 0.3
 }
 
-.disabled *,:disabled * {
+.disabled *,
+:disabled * {
     pointer-events: none
 }
 
-.btn.disabled:hover,.btn:disabled:hover {
+.btn.disabled:hover,
+.btn:disabled:hover {
     box-shadow: none
 }
 
-.badge,.tag {
+.badge,
+.tag {
     background-color: #000;
     color: #fff;
     display: inline-block;
@@ -360,7 +422,8 @@ a {
     border-bottom: none
 }
 
-.tooltip,.display-container {
+.tooltip,
+.display-container {
     position: relative
 }
 
@@ -395,7 +458,8 @@ a {
     border-bottom: 1px solid #ccc
 }
 
-.dropdown-click,.dropdown-sur {
+.dropdown-click,
+.dropdown-sur {
     position: relative;
     display: inline-block;
     cursor: pointer
@@ -405,12 +469,14 @@ a {
     display: block
 }
 
-.dropdown-sur:first-child,.dropdown-click:hover {
+.dropdown-sur:first-child,
+.dropdown-click:hover {
     background-color: #ccc;
     color: #000
 }
 
-.dropdown-sur:hover > .button:first-child,.dropdown-click:hover > .button:first-child {
+.dropdown-sur:hover>.button:first-child,
+.dropdown-click:hover>.button:first-child {
     background-color: #ccc;
     color: #000
 }
@@ -427,7 +493,8 @@ a {
     z-index: 1
 }
 
-.check,.radio {
+.check,
+.radio {
     width: 24px;
     height: 24px;
     position: relative;
@@ -438,26 +505,30 @@ a {
     height: 100%;
     width: 200px;
     background-color: #fff;
-    position: fixed!important;
+    position: fixed !important;
     z-index: 1;
     overflow: auto
 }
 
-.bar-block .dropdown-sur,.bar-block .dropdown-click {
+.bar-block .dropdown-sur,
+.bar-block .dropdown-click {
     width: 100%
 }
 
-.bar-block .dropdown-sur .dropdown-content,.bar-block .dropdown-click .dropdown-content {
+.bar-block .dropdown-sur .dropdown-content,
+.bar-block .dropdown-click .dropdown-content {
     min-width: 100%
 }
 
-.bar-block .dropdown-sur .button,.bar-block .dropdown-click .button {
+.bar-block .dropdown-sur .button,
+.bar-block .dropdown-click .button {
     width: 100%;
     text-align: left;
     padding: 8px 16px
 }
 
-.main,#main {
+.main,
+#main {
     transition: margin-left .4s
 }
 
@@ -471,8 +542,8 @@ a {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4)
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4)
 }
 
 .modal-content {
@@ -503,7 +574,8 @@ a {
     outline: 0
 }
 
-.bar .dropdown-sur,.bar .dropdown-click {
+.bar .dropdown-sur,
+.bar .dropdown-click {
     position: static;
     float: left
 }
@@ -537,13 +609,31 @@ a {
     overflow-x: auto
 }
 
-.container:after,.container:before,.panel:after,.panel:before,.row:after,.row:before,.row-padding:after,.row-padding:before, .cell-row:before,.cell-row:after,.clear:after,.clear:before,.bar:before,.bar:after {
+.container:after,
+.container:before,
+.panel:after,
+.panel:before,
+.row:after,
+.row:before,
+.row-padding:after,
+.row-padding:before,
+.cell-row:before,
+.cell-row:after,
+.clear:after,
+.clear:before,
+.bar:before,
+.bar:after {
     content: "";
     display: table;
     clear: both
 }
 
-.col,.half,.third,.twothird,.threequarter,.quarter {
+.col,
+.half,
+.third,
+.twothird,
+.threequarter,
+.quarter {
     float: left;
     width: 100%
 }
@@ -598,18 +688,20 @@ a {
 
 @media (min-width: 601px) {
     .col.m1 {
-        width:8.33333%
+        width: 8.33333%
     }
 
     .col.m2 {
         width: 16.66666%
     }
 
-    .col.m3,.quarter {
+    .col.m3,
+    .quarter {
         width: 24.99999%
     }
 
-    .col.m4,.third {
+    .col.m4,
+    .third {
         width: 33.33333%
     }
 
@@ -617,7 +709,8 @@ a {
         width: 41.66666%
     }
 
-    .col.m6,.half {
+    .col.m6,
+    .half {
         width: 49.99999%
     }
 
@@ -625,11 +718,13 @@ a {
         width: 58.33333%
     }
 
-    .col.m8,.twothird {
+    .col.m8,
+    .twothird {
         width: 66.66666%
     }
 
-    .col.m9,.threequarter {
+    .col.m9,
+    .threequarter {
         width: 74.99999%
     }
 
@@ -648,7 +743,7 @@ a {
 
 @media (min-width: 993px) {
     .col.l1 {
-        width:8.33333%
+        width: 8.33333%
     }
 
     .col.l2 {
@@ -705,7 +800,8 @@ a {
     margin-right: -16px
 }
 
-.content,.auto {
+.content,
+.auto {
     margin-left: auto;
     margin-right: auto
 }
@@ -740,58 +836,67 @@ a {
 }
 
 .hide {
-    display: none!important
+    display: none !important
 }
 
-.show-block,.show {
-    display: block!important
+.show-block,
+.show {
+    display: block !important
 }
 
 .show-inline-block {
-    display: inline-block!important
+    display: inline-block !important
 }
 
 @media (max-width: 1205px) {
     .auto {
-        max-width:95%
+        max-width: 95%
     }
 }
 
 @media (max-width: 600px) {
     .modal-content {
-        margin:0 10px;
-        width: auto!important
+        margin: 0 10px;
+        width: auto !important
     }
 
     .modal {
         padding-top: 30px
     }
 
-    .dropdown-sur.mobile .dropdown-content,.dropdown-click.mobile .dropdown-content {
+    .dropdown-sur.mobile .dropdown-content,
+    .dropdown-click.mobile .dropdown-content {
         position: relative
     }
 
     .hide-small {
-        display: none!important
+        display: none !important
     }
 
     .mobile {
         display: block;
-        width: 100%!important
+        width: 100% !important
     }
 
-    .bar-item.mobile,.dropdown-sur.mobile,.dropdown-click.mobile {
+    .bar-item.mobile,
+    .dropdown-sur.mobile,
+    .dropdown-click.mobile {
         text-align: center
     }
 
-    .dropdown-sur.mobile,.dropdown-sur.mobile .btn,.dropdown-sur.mobile .button,.dropdown-click.mobile,.dropdown-click.mobile .btn,.dropdown-click.mobile .button {
+    .dropdown-sur.mobile,
+    .dropdown-sur.mobile .btn,
+    .dropdown-sur.mobile .button,
+    .dropdown-click.mobile,
+    .dropdown-click.mobile .btn,
+    .dropdown-click.mobile .button {
         width: 100%
     }
 }
 
 @media (max-width: 768px) {
     .modal-content {
-        width:500px
+        width: 500px
     }
 
     .modal {
@@ -801,32 +906,32 @@ a {
 
 @media (min-width: 993px) {
     .modal-content {
-        width:900px
+        width: 900px
     }
 
     .hide-large {
-        display: none!important
+        display: none !important
     }
 
     .sidebar.collapse {
-        display: block!important
+        display: block !important
     }
 }
 
 @media (max-width: 992px) and (min-width:601px) {
     .hide-medium {
-        display:none!important
+        display: none !important
     }
 }
 
 @media (max-width: 992px) {
     .sidebar.collapse {
-        display:none
+        display: none
     }
 
     .main {
-        margin-left: 0!important;
-        margin-right: 0!important
+        margin-left: 0 !important;
+        margin-right: 0 !important
     }
 
     .auto {
@@ -834,7 +939,8 @@ a {
     }
 }
 
-.top,.bottom {
+.top,
+.bottom {
     position: fixed;
     width: 100%;
     z-index: 1
@@ -857,7 +963,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 2
 }
 
@@ -889,40 +995,40 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%)
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
 }
 
 .display-left {
     position: absolute;
     top: 50%;
     left: 0%;
-    transform: translate(0%,-50%);
-    -ms-transform: translate(-0%,-50%)
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%)
 }
 
 .display-right {
     position: absolute;
     top: 50%;
     right: 0%;
-    transform: translate(0%,-50%);
-    -ms-transform: translate(0%,-50%)
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%)
 }
 
 .display-topmiddle {
     position: absolute;
     left: 50%;
     top: 0;
-    transform: translate(-50%,0%);
-    -ms-transform: translate(-50%,0%)
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
 }
 
 .display-bottommiddle {
     position: absolute;
     left: 50%;
     bottom: 0;
-    transform: translate(-50%,0%);
-    -ms-transform: translate(-50%,0%)
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
 }
 
 .display-container:hover .display-sur {
@@ -949,7 +1055,8 @@ a {
     border-radius: 2px
 }
 
-.rond,.rond-medium {
+.rond,
+.rond-medium {
     border-radius: 4px
 }
 
@@ -965,11 +1072,18 @@ a {
     border-radius: 32px
 }
 
-.row-padding,.row-padding>.half,.row-padding>.third,.row-padding>.twothird,.row-padding>.threequarter,.row-padding>.quarter,.row-padding>.col {
+.row-padding,
+.row-padding>.half,
+.row-padding>.third,
+.row-padding>.twothird,
+.row-padding>.threequarter,
+.row-padding>.quarter,
+.row-padding>.col {
     padding: 0 8px
 }
 
-.container,.panel {
+.container,
+.panel {
     padding: 0.01em 16px
 }
 
@@ -978,8 +1092,9 @@ a {
     margin-bottom: 16px
 }
 
-.code,.codespan {
-    font-family: Consolas,"courier new";
+.code,
+.codespan {
+    font-family: Consolas, "courier new";
     font-size: 16px
 }
 
@@ -999,12 +1114,15 @@ a {
     font-size: 110%
 }
 
-.sur-carte:hover,.carte,.carte-2 {
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+.sur-carte:hover,
+.carte,
+.carte-2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
 }
 
-.carte-4,.sur-shadow:hover {
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+.carte-4,
+.sur-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .spin {
@@ -1140,14 +1258,16 @@ a {
 }
 
 .animate-input:focus {
-    width: 100%!important
+    width: 100% !important
 }
 
-.opacity,.sur-opacity:hover {
+.opacity,
+.sur-opacity:hover {
     opacity: 0.60
 }
 
-.opacity-off,.sur-opacity-off:hover {
+.opacity-off,
+.sur-opacity-off:hover {
     opacity: 1
 }
 
@@ -1159,15 +1279,20 @@ a {
     opacity: 0.75
 }
 
-.greyscale-max,.grayscale-max,.sur-greyscale:hover,.sur-grayscale:hover {
+.greyscale-max,
+.grayscale-max,
+.sur-greyscale:hover,
+.sur-grayscale:hover {
     filter: grayscale(100%)
 }
 
-.greyscale,.grayscale {
+.greyscale,
+.grayscale {
     filter: grayscale(75%)
 }
 
-.greyscale-min,.grayscale-min {
+.greyscale-min,
+.grayscale-min {
     filter: grayscale(50%)
 }
 
@@ -1175,7 +1300,8 @@ a {
     filter: sepia(75%)
 }
 
-.sepia-max,.sur-sepia:hover {
+.sepia-max,
+.sur-sepia:hover {
     filter: sepia(100%)
 }
 
@@ -1184,592 +1310,2335 @@ a {
 }
 
 .tiny {
-    font-size: 10px!important
+    font-size: 10px !important
 }
 
 .small {
-    font-size: 12px!important
+    font-size: 12px !important
 }
 
 .medium {
-    font-size: 15px!important
+    font-size: 15px !important
 }
 
 .large {
-    font-size: 18px!important
+    font-size: 18px !important
 }
 
 .xlarge {
-    font-size: 24px!important
+    font-size: 24px !important
 }
 
 .xxlarge {
-    font-size: 36px!important
+    font-size: 36px !important
 }
 
 .xxxlarge {
-    font-size: 48px!important
+    font-size: 48px !important
 }
 
 .jumbo {
-    font-size: 64px!important
+    font-size: 64px !important
 }
 
 .big {
-    font-size: 150px!important
+    font-size: 150px !important
 }
 
 .left-align {
-    text-align: left!important
+    text-align: left !important
 }
 
 .right-align {
-    text-align: right!important
+    text-align: right !important
 }
 
 .justify {
-    text-align: justify!important
+    text-align: justify !important
 }
 
 .center {
-    text-align: center!important
+    text-align: center !important
 }
 
 .bor-0 {
-    border: 0!important
+    border: 0 !important
 }
 
 .border {
-    border: 1px solid #ccc!important
+    border: 1px solid #ccc !important
 }
 
 .bor-top {
-    border-top: 1px solid #ccc!important
+    border-top: 1px solid #ccc !important
 }
 
 .bor-bottom {
-    border-bottom: 1px solid #ccc!important
+    border-bottom: 1px solid #ccc !important
 }
 
 .bor-left {
-    border-left: 1px solid #ccc!important
+    border-left: 1px solid #ccc !important
 }
 
 .bor-right {
-    border-right: 1px solid #ccc!important
+    border-right: 1px solid #ccc !important
 }
 
 .topbar {
-    border-top: 6px solid #ccc!important
+    border-top: 6px solid #ccc !important
 }
 
 .bottombar {
-    border-bottom: 6px solid #ccc!important
+    border-bottom: 6px solid #ccc !important
 }
 
 .leftbar {
-    border-left: 6px solid #ccc!important
+    border-left: 6px solid #ccc !important
 }
 
 .rightbar {
-    border-right: 6px solid #ccc!important
+    border-right: 6px solid #ccc !important
 }
 
-.section,.code {
-    margin-top: 16px!important;
-    margin-bottom: 16px!important
+.section,
+.code {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important
 }
 
 .margin {
-    margin: 16px!important
+    margin: 16px !important
 }
 
 .margin-top {
-    margin-top: 16px!important
+    margin-top: 16px !important
 }
 
 .margin-bottom {
-    margin-bottom: 16px!important
+    margin-bottom: 16px !important
 }
 
 .margin-big {
-    margin: 35px!important
+    margin: 35px !important
 }
 
 .margin-left {
-    margin-left: 16px!important
+    margin-left: 16px !important
 }
 
 .margin-right {
-    margin-right: 16px!important
+    margin-right: 16px !important
 }
 
 .padding-small {
-    padding: 4px 8px!important
+    padding: 4px 8px !important
 }
 
 .padding {
-    padding: 8px 16px!important
+    padding: 8px 16px !important
 }
 
 .padding-large {
-    padding: 12px 24px!important
+    padding: 12px 24px !important
 }
 
 .padding-16 {
-    padding-top: 16px!important;
-    padding-bottom: 16px!important
+    padding-top: 16px !important;
+    padding-bottom: 16px !important
 }
 
 .padding-24 {
-    padding-top: 24px!important;
-    padding-bottom: 24px!important
+    padding-top: 24px !important;
+    padding-bottom: 24px !important
 }
 
 .padding-32 {
-    padding-top: 32px!important;
-    padding-bottom: 32px!important
+    padding-top: 32px !important;
+    padding-bottom: 32px !important
 }
 
 .padding-48 {
-    padding-top: 48px!important;
-    padding-bottom: 48px!important
+    padding-top: 48px !important;
+    padding-bottom: 48px !important
 }
 
 .padding-64 {
-    padding-top: 64px!important;
-    padding-bottom: 64px!important
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
 }
 
 .left {
-    float: left!important
+    float: left !important
 }
 
 .right {
-    float: right!important
+    float: right !important
 }
 
 .button:hover {
-    color: #000!important;
-    background-color: #ccc!important
+    color: #000 !important;
+    background-color: #ccc !important
 }
 
-.transparent,.sur-none:hover {
-    background-color: transparent!important
+.transparent,
+.sur-none:hover {
+    background-color: transparent !important
 }
 
 .sur-none:hover {
-    box-shadow: none!important
+    box-shadow: none !important
 }
 
-.sur-carte-simple:hover,.carte-simple {
-    box-shadow: 0 0px 10px rgba(0,0,0,0.3)
+.sur-carte-simple:hover,
+.carte-simple {
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3)
 }
 
 /* Les couleurs Coleurs  */
-.amber,.sur-amber:hover {
-    color: #000!important;
-    background-color: #ffc107!important
+.amber,
+.sur-amber:hover {
+    color: #000 !important;
+    background-color: #ffc107 !important
 }
 
-.aqua,.sur-aqua:hover {
-    color: #000!important;
-    background-color: #00ffff!important
+.aqua,
+.sur-aqua:hover {
+    color: #000 !important;
+    background-color: #00ffff !important
 }
 
-.blue,.sur-blue:hover {
-    color: #fff!important;
-    background-color: #2196F3!important
+.blue,
+.sur-blue:hover {
+    color: #fff !important;
+    background-color: #2196F3 !important
 }
 
-.light-blue,.sur-light-blue:hover {
-    color: #000!important;
-    background-color: #87CEEB!important
+.light-blue,
+.sur-light-blue:hover {
+    color: #000 !important;
+    background-color: #87CEEB !important
 }
 
-.brown,.sur-brown:hover {
-    color: #fff!important;
-    background-color: #795548!important
+.brown,
+.sur-brown:hover {
+    color: #fff !important;
+    background-color: #795548 !important
 }
 
-.cyan,.sur-cyan:hover {
-    color: #000!important;
-    background-color: #00bcd4!important
+.cyan,
+.sur-cyan:hover {
+    color: #000 !important;
+    background-color: #00bcd4 !important
 }
 
-.blue-grey,.sur-blue-grey:hover,.blue-gray,.sur-blue-gray:hover {
-    color: #fff!important;
-    background-color: #607d8b!important
+.blue-grey,
+.sur-blue-grey:hover,
+.blue-gray,
+.sur-blue-gray:hover {
+    color: #fff !important;
+    background-color: #607d8b !important
 }
 
-.green,.sur-green:hover {
-    color: #fff!important;
-    background-color: #4CAF50!important
+.green,
+.sur-green:hover {
+    color: #fff !important;
+    background-color: #4CAF50 !important
 }
 
-.light-green,.sur-light-green:hover {
-    color: #000!important;
-    background-color: #8bc34a!important
+.light-green,
+.sur-light-green:hover {
+    color: #000 !important;
+    background-color: #8bc34a !important
 }
 
-.indigo,.sur-indigo:hover {
-    color: #fff!important;
-    background-color: #3f51b5!important
+.indigo,
+.sur-indigo:hover {
+    color: #fff !important;
+    background-color: #3f51b5 !important
 }
 
-.khaki,.sur-khaki:hover {
-    color: #000!important;
-    background-color: #f0e68c!important
+.khaki,
+.sur-khaki:hover {
+    color: #000 !important;
+    background-color: #f0e68c !important
 }
 
-.lime,.sur-lime:hover {
-    color: #000!important;
-    background-color: #cddc39!important
+.lime,
+.sur-lime:hover {
+    color: #000 !important;
+    background-color: #cddc39 !important
 }
 
-.orange,.sur-orange:hover {
-    color: #000!important;
-    background-color: #ff9800!important
+.orange,
+.sur-orange:hover {
+    color: #000 !important;
+    background-color: #ff9800 !important
 }
 
-.deep-orange,.sur-deep-orange:hover {
-    color: #fff!important;
-    background-color: #ff5722!important
+.deep-orange,
+.sur-deep-orange:hover {
+    color: #fff !important;
+    background-color: #ff5722 !important
 }
 
-.pink,.sur-pink:hover {
-    color: #fff!important;
-    background-color: #e91e63!important
+.pink,
+.sur-pink:hover {
+    color: #fff !important;
+    background-color: #e91e63 !important
 }
 
-.purple,.sur-purple:hover {
-    color: #fff!important;
-    background-color: #9c27b0!important
+.purple,
+.sur-purple:hover {
+    color: #fff !important;
+    background-color: #9c27b0 !important
 }
 
-.deep-purple,.sur-deep-purple:hover {
-    color: #fff!important;
-    background-color: #673ab7!important
+.deep-purple,
+.sur-deep-purple:hover {
+    color: #fff !important;
+    background-color: #673ab7 !important
 }
 
-.red,.sur-red:hover {
-    color: #fff!important;
-    background-color: #f44336!important
+.red,
+.sur-red:hover {
+    color: #fff !important;
+    background-color: #f44336 !important
 }
 
-.cherry,.sur-cherry:hover {
-    color: #fff!important;
-    background-color: #880808!important
+.cherry,
+.sur-cherry:hover {
+    color: #fff !important;
+    background-color: #880808 !important
 }
 
-.sand,.sur-sand:hover {
-    color: #000!important;
-    background-color: #fdf5e6!important
+.sand,
+.sur-sand:hover {
+    color: #000 !important;
+    background-color: #fdf5e6 !important
 }
 
-.teal,.sur-teal:hover {
-    color: #fff!important;
-    background-color: #009688!important
+.teal,
+.sur-teal:hover {
+    color: #fff !important;
+    background-color: #009688 !important
 }
 
-.yellow,.sur-yellow:hover {
-    color: #000!important;
-    background-color: #ffeb3b!important
+.yellow,
+.sur-yellow:hover {
+    color: #000 !important;
+    background-color: #ffeb3b !important
 }
 
-.white,.blanc,.sur-blanc,.sur-white:hover {
-    color: #000!important;
-    background-color: #fff!important
+.white,
+.blanc,
+.sur-blanc,
+.sur-white:hover {
+    color: #000 !important;
+    background-color: #fff !important
 }
 
-.black,.noir,.sur-noir,.sur-black:hover {
-    color: #fff!important;
-    background-color: #000!important
+.black,
+.noir,
+.sur-noir,
+.sur-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
 }
 
-.grisb,.sur-grisb:hover {
-    color: #fff!important;
-    background-color: #F3F3FB!important
+.grisb,
+.sur-grisb:hover {
+    color: #fff !important;
+    background-color: #F3F3FB !important
 }
 
-.grey,.sur-grey:hover,.gray,.sur-gray:hover {
-    color: #000!important;
-    background-color: #9e9e9e!important
+.grey,
+.sur-grey:hover,
+.gray,
+.sur-gray:hover {
+    color: #000 !important;
+    background-color: #9e9e9e !important
 }
 
-.light-grey,.sur-light-grey:hover,.light-gray,.sur-light-gray:hover {
-    color: #000!important;
-    background-color: #f1f1f1!important
+.light-grey,
+.sur-light-grey:hover,
+.light-gray,
+.sur-light-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
 }
 
-.dark-grey,.sur-dark-grey:hover,.dark-gray,.sur-dark-gray:hover {
-    color: #fff!important;
-    background-color: #616161!important
+.dark-grey,
+.sur-dark-grey:hover,
+.dark-gray,
+.sur-dark-gray:hover {
+    color: #fff !important;
+    background-color: #616161 !important
 }
 
-.pale-red,.sur-pale-red:hover {
-    color: #000!important;
-    background-color: #ffdddd!important
+.pale-red,
+.sur-pale-red:hover {
+    color: #000 !important;
+    background-color: #ffdddd !important
 }
 
-.pale-green,.sur-pale-green:hover {
-    color: #000!important;
-    background-color: #ddffdd!important
+.pale-green,
+.sur-pale-green:hover {
+    color: #000 !important;
+    background-color: #ddffdd !important
 }
 
-.pale-yellow,.sur-pale-yellow:hover {
-    color: #000!important;
-    background-color: #ffffcc!important
+.pale-yellow,
+.sur-pale-yellow:hover {
+    color: #000 !important;
+    background-color: #ffffcc !important
 }
 
-.pale-blue,.sur-pale-blue:hover {
-    color: #000!important;
-    background-color: #ddffff!important
+.pale-blue,
+.sur-pale-blue:hover {
+    color: #000 !important;
+    background-color: #ddffff !important
 }
 
-.txt-amber,.sur-txt-amber:hover {
-    color: #ffc107!important
+.txt-amber,
+.sur-txt-amber:hover {
+    color: #ffc107 !important
 }
 
-.txt-aqua,.sur-txt-aqua:hover {
-    color: #00ffff!important
+.txt-aqua,
+.sur-txt-aqua:hover {
+    color: #00ffff !important
 }
 
-.txt-blue,.sur-txt-blue:hover {
-    color: #2196F3!important
+.txt-blue,
+.sur-txt-blue:hover {
+    color: #2196F3 !important
 }
 
-.txt-light-blue,.sur-txt-light-blue:hover {
-    color: #87CEEB!important
+.txt-light-blue,
+.sur-txt-light-blue:hover {
+    color: #87CEEB !important
 }
 
-.txt-brown,.sur-txt-brown:hover {
-    color: #795548!important
+.txt-brown,
+.sur-txt-brown:hover {
+    color: #795548 !important
 }
 
-.txt-cyan,.sur-txt-cyan:hover {
-    color: #00bcd4!important
+.txt-cyan,
+.sur-txt-cyan:hover {
+    color: #00bcd4 !important
 }
 
-.txt-blue-grey,.sur-txt-blue-grey:hover,.txt-blue-gray,.sur-txt-blue-gray:hover {
-    color: #607d8b!important
+.txt-blue-grey,
+.sur-txt-blue-grey:hover,
+.txt-blue-gray,
+.sur-txt-blue-gray:hover {
+    color: #607d8b !important
 }
 
-.txt-green,.sur-txt-green:hover {
-    color: #4CAF50!important
+.txt-green,
+.sur-txt-green:hover {
+    color: #4CAF50 !important
 }
 
-.txt-light-green,.sur-txt-light-green:hover {
-    color: #8bc34a!important
+.txt-light-green,
+.sur-txt-light-green:hover {
+    color: #8bc34a !important
 }
 
-.txt-indigo,.sur-txt-indigo:hover {
-    color: #3f51b5!important
+.txt-indigo,
+.sur-txt-indigo:hover {
+    color: #3f51b5 !important
 }
 
-.txt-khaki,.sur-txt-khaki:hover {
-    color: #b4aa50!important
+.txt-khaki,
+.sur-txt-khaki:hover {
+    color: #b4aa50 !important
 }
 
-.txt-lime,.sur-txt-lime:hover {
-    color: #cddc39!important
+.txt-lime,
+.sur-txt-lime:hover {
+    color: #cddc39 !important
 }
 
-.txt-orange,.sur-txt-orange:hover {
-    color: #ff9800!important
+.txt-orange,
+.sur-txt-orange:hover {
+    color: #ff9800 !important
 }
 
-.txt-deep-orange,.sur-txt-deep-orange:hover {
-    color: #ff5722!important
+.txt-deep-orange,
+.sur-txt-deep-orange:hover {
+    color: #ff5722 !important
 }
 
-.txt-pink,.sur-txt-pink:hover {
-    color: #e91e63!important
+.txt-pink,
+.sur-txt-pink:hover {
+    color: #e91e63 !important
 }
 
-.txt-purple,.sur-txt-purple:hover {
-    color: #9c27b0!important
+.txt-purple,
+.sur-txt-purple:hover {
+    color: #9c27b0 !important
 }
 
-.txt-deep-purple,.sur-txt-deep-purple:hover {
-    color: #673ab7!important
+.txt-deep-purple,
+.sur-txt-deep-purple:hover {
+    color: #673ab7 !important
 }
 
-.txt-red,.sur-txt-red:hover {
-    color: #f44336!important
+.txt-red,
+.sur-txt-red:hover {
+    color: #f44336 !important
 }
 
-.txt-cherry,.sur-txt-cherry:hover {
-    color: #880808!important
+.txt-cherry,
+.sur-txt-cherry:hover {
+    color: #880808 !important
 }
 
-.txt-sand,.sur-txt-sand:hover {
-    color: #fdf5e6!important
+.txt-sand,
+.sur-txt-sand:hover {
+    color: #fdf5e6 !important
 }
 
-.txt-teal,.sur-txt-teal:hover {
-    color: #009688!important
+.txt-teal,
+.sur-txt-teal:hover {
+    color: #009688 !important
 }
 
-.txt-yellow,.sur-txt-yellow:hover {
-    color: #d2be0e!important
+.txt-yellow,
+.sur-txt-yellow:hover {
+    color: #d2be0e !important
 }
 
-.txt-white,.sur-txt-white:hover {
-    color: #fff!important
+.txt-white,
+.sur-txt-white:hover {
+    color: #fff !important
 }
 
-.txt-black,.sur-txt-black:hover {
-    color: #000!important
+.txt-black,
+.sur-txt-black:hover {
+    color: #000 !important
 }
 
-.txt-grisb,.sur-txt-grisb:hover {
-    color: #F3F3FB!important
+.txt-grisb,
+.sur-txt-grisb:hover {
+    color: #F3F3FB !important
 }
 
-.txt-grey,.sur-txt-grey:hover,.txt-gray,.sur-txt-gray:hover {
-    color: #757575!important
+.txt-grey,
+.sur-txt-grey:hover,
+.txt-gray,
+.sur-txt-gray:hover {
+    color: #757575 !important
 }
 
-.txt-light-grey,.sur-txt-light-grey:hover,.txt-light-gray,.sur-txt-light-gray:hover {
-    color: #f1f1f1!important
+.txt-light-grey,
+.sur-txt-light-grey:hover,
+.txt-light-gray,
+.sur-txt-light-gray:hover {
+    color: #f1f1f1 !important
 }
 
-.txt-dark-grey,.sur-txt-dark-grey:hover,.txt-dark-gray,.sur-txt-dark-gray:hover {
-    color: #3a3a3a!important
+.txt-dark-grey,
+.sur-txt-dark-grey:hover,
+.txt-dark-gray,
+.sur-txt-dark-gray:hover {
+    color: #3a3a3a !important
 }
 
-.bor-amber,.sur-bor-amber:hover {
-    border-color: #ffc107!important
+.flat-turquoise {
+    color: #fff;
+    background-color: #1abc9c
 }
 
-.bor-aqua,.sur-bor-aqua:hover {
-    border-color: #00ffff!important
+.flat-emerald {
+    color: #fff;
+    background-color: #2ecc71
 }
 
-.bor-blue,.sur-bor-blue:hover {
-    border-color: #2196F3!important
+.flat-peter-river {
+    color: #fff;
+    background-color: #3498db
 }
 
-.bor-light-blue,.sur-bor-light-blue:hover {
-    border-color: #87CEEB!important
+.flat-amethyst {
+    color: #fff;
+    background-color: #9b59b6
 }
 
-.bor-brown,.sur-bor-brown:hover {
-    border-color: #795548!important
+.flat-wet-asphalt {
+    color: #fff;
+    background-color: #34495e
 }
 
-.bor-cyan,.sur-bor-cyan:hover {
-    border-color: #00bcd4!important
+.flat-green-sea {
+    color: #fff;
+    background-color: #16a085
 }
 
-.bor-blue-grey,.sur-bor-blue-grey:hover,.bor-blue-gray,.sur-bor-blue-gray:hover {
-    border-color: #607d8b!important
+.flat-nephritis {
+    color: #fff;
+    background-color: #27ae60
 }
 
-.bor-green,.sur-bor-green:hover {
-    border-color: #4CAF50!important
+.flat-belize-hole {
+    color: #fff;
+    background-color: #2980b9
 }
 
-.bor-light-green,.sur-bor-light-green:hover {
-    border-color: #8bc34a!important
+.flat-wisteria {
+    color: #fff;
+    background-color: #8e44ad
 }
 
-.bor-indigo,.sur-bor-indigo:hover {
-    border-color: #3f51b5!important
+.flat-midnight-blue {
+    color: #fff;
+    background-color: #2c3e50
 }
 
-.bor-khaki,.sur-bor-khaki:hover {
-    border-color: #f0e68c!important
+.flat-sun-flower {
+    color: #fff;
+    background-color: #f1c40f
 }
 
-.bor-lime,.sur-bor-lime:hover {
-    border-color: #cddc39!important
+.flat-carrot {
+    color: #fff;
+    background-color: #e67e22
 }
 
-.bor-orange,.sur-bor-orange:hover {
-    border-color: #ff9800!important
+.flat-alizarin {
+    color: #fff;
+    background-color: #e74c3c
 }
 
-.bor-deep-orange,.sur-bor-deep-orange:hover {
-    border-color: #ff5722!important
+.flat-clouds {
+    color: #000;
+    background-color: #ecf0f1
 }
 
-.bor-pink,.sur-bor-pink:hover {
-    border-color: #e91e63!important
+.flat-concrete {
+    color: #fff;
+    background-color: #95a5a6
 }
 
-.bor-purple,.sur-bor-purple:hover {
-    border-color: #9c27b0!important
+.flat-orange {
+    color: #fff;
+    background-color: #f39c12
 }
 
-.bor-deep-purple,.sur-bor-deep-purple:hover {
-    border-color: #673ab7!important
+.flat-pumpkin {
+    color: #fff;
+    background-color: #d35400
 }
 
-.bor-red,.sur-bor-red:hover {
-    border-color: #f44336!important
+.flat-pomegranate {
+    color: #fff;
+    background-color: #c0392b
 }
 
-.bor-cherry,.sur-bor-cherry:hover {
-    border-color: #880808!important
+.flat-silver {
+    color: #000;
+    background-color: #bdc3c7
 }
 
-.bor-sand,.sur-bor-sand:hover {
-    border-color: #fdf5e6!important
+.flat-asbestos {
+    color: #fff;
+    background-color: #7f8c8d
 }
 
-.bor-teal,.sur-bor-teal:hover {
-    border-color: #009688!important
+.sur-flat-turquoise {
+    color: #fff;
+    background-color: #1abc9c
 }
 
-.bor-yellow,.sur-bor-yellow:hover {
-    border-color: #ffeb3b!important
+.sur-flat-emerald {
+    color: #fff;
+    background-color: #2ecc71
 }
 
-.bor-white,.sur-bor-white:hover {
-    border-color: #fff!important
+.sur-flat-peter-river {
+    color: #fff;
+    background-color: #3498db
 }
 
-.bor-black,.sur-bor-black:hover {
-    border-color: #000!important
+.sur-flat-amethyst {
+    color: #fff;
+    background-color: #9b59b6
 }
 
-.bor-grey,.sur-bor-grey:hover,.bor-gray,.sur-bor-gray:hover {
-    border-color: #9e9e9e!important
+.sur-flat-wet-asphalt {
+    color: #fff;
+    background-color: #34495e
 }
 
-.bor-light-grey,.sur-bor-light-grey:hover,.bor-light-gray,.sur-bor-light-gray:hover {
-    border-color: #f1f1f1!important
+.sur-flat-green-sea {
+    color: #fff;
+    background-color: #16a085
 }
 
-.bor-dark-grey,.sur-bor-dark-grey:hover,.bor-dark-gray,.sur-bor-dark-gray:hover {
-    border-color: #616161!important
+.sur-flat-nephritis {
+    color: #fff;
+    background-color: #27ae60
 }
 
-.bor-pale-red,.sur-bor-pale-red:hover {
-    border-color: #ffe7e7!important
+.sur-flat-belize-hole {
+    color: #fff;
+    background-color: #2980b9
 }
 
-.bor-pale-green,.sur-bor-pale-green:hover {
-    border-color: #e7ffe7!important
+.sur-flat-wisteria {
+    color: #fff;
+    background-color: #8e44ad
 }
 
-.bor-pale-yellow,.sur-bor-pale-yellow:hover {
-    border-color: #ffffcc!important
+.sur-flat-midnight-blue {
+    color: #fff;
+    background-color: #2c3e50
 }
 
-.bor-pale-blue,.sur-bor-pale-blue:hover {
-    border-color: #e7ffff!important
+.sur-flat-sun-flower {
+    color: #fff;
+    background-color: #f1c40f
 }
 
-.bor-grisb,.sur-bor-grisb:hover {
-    border-color: #F3F3FB!important
+.sur-flat-carrot {
+    color: #fff;
+    background-color: #e67e22
+}
+
+.sur-flat-alizarin {
+    color: #fff;
+    background-color: #e74c3c
+}
+
+.sur-flat-clouds {
+    color: #000;
+    background-color: #ecf0f1
+}
+
+.sur-flat-concrete {
+    color: #fff;
+    background-color: #95a5a6
+}
+
+.sur-flat-orange {
+    color: #fff;
+    background-color: #f39c12
+}
+
+.sur-flat-pumpkin {
+    color: #fff;
+    background-color: #d35400
+}
+
+.sur-flat-pomegranate {
+    color: #fff;
+    background-color: #c0392b
+}
+
+.sur-flat-silver {
+    color: #000;
+    background-color: #bdc3c7
+}
+
+.sur-flat-asbestos {
+    color: #fff;
+    background-color: #7f8c8d
+}
+
+.txt-flat-turquoise {
+    color: #1abc9c
+}
+
+.txt-flat-emerald {
+    color: #2ecc71
+}
+
+.txt-flat-peter-river {
+    color: #3498db
+}
+
+.txt-flat-amethyst {
+    color: #9b59b6
+}
+
+.txt-flat-wet-asphalt {
+    color: #34495e
+}
+
+.txt-flat-green-sea {
+    color: #16a085
+}
+
+.txt-flat-nephritis {
+    color: #27ae60
+}
+
+.txt-flat-belize-hole {
+    color: #2980b9
+}
+
+.txt-flat-wisteria {
+    color: #8e44ad
+}
+
+.txt-flat-midnight-blue {
+    color: #2c3e50
+}
+
+.txt-flat-sun-flower {
+    color: #f1c40f
+}
+
+.txt-flat-carrot {
+    color: #e67e22
+}
+
+.txt-flat-alizarin {
+    color: #e74c3c
+}
+
+.txt-flat-clouds {
+    color: #ecf0f1
+}
+
+.txt-flat-concrete {
+    color: #95a5a6
+}
+
+.txt-flat-orange {
+    color: #f39c12
+}
+
+.txt-flat-pumpkin {
+    color: #d35400
+}
+
+.txt-flat-pomegranate {
+    color: #c0392b
+}
+
+.txt-flat-silver {
+    color: #bdc3c7
+}
+
+.txt-flat-asbestos {
+    color: #7f8c8d
+}
+
+.sur-txt-flat-turquoise {
+    color: #1abc9c
+}
+
+.sur-txt-flat-emerald {
+    color: #2ecc71
+}
+
+.sur-txt-flat-peter-river {
+    color: #3498db
+}
+
+.sur-txt-flat-amethyst {
+    color: #9b59b6
+}
+
+.sur-txt-flat-wet-asphalt {
+    color: #34495e
+}
+
+.sur-txt-flat-green-sea {
+    color: #16a085
+}
+
+.sur-txt-flat-nephritis {
+    color: #27ae60
+}
+
+.sur-txt-flat-belize-hole {
+    color: #2980b9
+}
+
+.sur-txt-flat-wisteria {
+    color: #8e44ad
+}
+
+.sur-txt-flat-midnight-blue {
+    color: #2c3e50
+}
+
+.sur-txt-flat-sun-flower {
+    color: #f1c40f
+}
+
+.sur-txt-flat-carrot {
+    color: #e67e22
+}
+
+.sur-txt-flat-alizarin {
+    color: #e74c3c
+}
+
+.sur-txt-flat-clouds {
+    color: #ecf0f1
+}
+
+.sur-txt-flat-concrete {
+    color: #95a5a6
+}
+
+.sur-txt-flat-orange {
+    color: #f39c12
+}
+
+.sur-txt-flat-pumpkin {
+    color: #d35400
+}
+
+.sur-txt-flat-pomegranate {
+    color: #c0392b
+}
+
+.sur-txt-flat-silver {
+    color: #bdc3c7
+}
+
+.sur-txt-flat-asbestos {
+    color: #7f8c8d
+}
+
+
+
+.txt-metro-light-green {
+    color: #99b433
+}
+
+.txt-metro-green {
+    color: #00a300
+}
+
+.txt-metro-dark-green {
+    color: #1e7145
+}
+
+.txt-metro-magenta {
+    color: #ff0097
+}
+
+.txt-metro-light-purple {
+    color: #9f00a7
+}
+
+.txt-metro-purple {
+    color: #7e3878
+}
+
+.txt-metro-dark-purple {
+    color: #603cba
+}
+
+.txt-metro-darken {
+    color: #1d1d1d
+}
+
+.txt-metro-teal {
+    color: #00aba9
+}
+
+.txt-metro-light-blue {
+    color: #eff4ff
+}
+
+.txt-metro-blue {
+    color: #2d89ef
+}
+
+.txt-metro-dark-blue {
+    color: #2b5797
+}
+
+.txt-metro-yellow {
+    color: #ffc40d
+}
+
+.txt-metro-orange {
+    color: #e3a21a
+}
+
+.txt-metro-dark-orange {
+    color: #da532c
+}
+
+.txt-metro-red {
+    color: #ee1111
+}
+
+.txt-metro-dark-red {
+    color: #b91d47
+}
+
+.sur-txt-metro-light-green {
+    color: #99b433
+}
+
+.sur-txt-metro-green {
+    color: #00a300
+}
+
+.sur-txt-metro-dark-green {
+    color: #1e7145
+}
+
+.sur-txt-metro-magenta {
+    color: #ff0097
+}
+
+.sur-txt-metro-light-purple {
+    color: #9f00a7
+}
+
+.sur-txt-metro-purple {
+    color: #7e3878
+}
+
+.sur-txt-metro-dark-purple {
+    color: #603cba
+}
+
+.sur-txt-metro-darken {
+    color: #1d1d1d
+}
+
+.sur-txt-metro-teal {
+    color: #00aba9
+}
+
+.sur-txt-metro-light-blue {
+    color: #eff4ff
+}
+
+.sur-txt-metro-blue {
+    color: #2d89ef
+}
+
+.sur-txt-metro-dark-blue {
+    color: #2b5797
+}
+
+.sur-txt-metro-yellow {
+    color: #ffc40d
+}
+
+.sur-txt-metro-orange {
+    color: #e3a21a
+}
+
+.sur-txt-metro-dark-orange {
+    color: #da532c
+}
+
+.sur-txt-metro-red {
+    color: #ee1111
+}
+
+.sur-txt-metro-dark-red {
+    color: #b91d47
+}
+
+.food-apple {
+    color: #000;
+    background-color: #76cd26
+}
+
+.food-aspargus {
+    color: #fff;
+    background-color: #77ab56
+}
+
+.food-apricot {
+    color: #fff;
+    background-color: #ffb16d
+}
+
+.food-aubergine {
+    color: #fff;
+    background-color: #3d0734
+}
+
+.food-avocado {
+    color: #fff;
+    background-color: #87a922
+}
+
+.food-banana {
+    color: #000;
+    background-color: #fafe4b
+}
+
+.food-butter {
+    color: #000;
+    background-color: #ffff81
+}
+
+.food-blueberry {
+    color: #fff;
+    background-color: #464196
+}
+
+.food-carrot {
+    color: #fff;
+    background-color: #e67e22
+}
+
+.food-cherry {
+    color: #fff;
+    background-color: #cf0234
+}
+
+.food-chocolate {
+    color: #fff;
+    background-color: #411900
+}
+
+.food-cranberry {
+    color: #fff;
+    background-color: #9e003a
+}
+
+.food-coffee {
+    color: #fff;
+    background-color: #a6814c
+}
+
+.food-egg {
+    color: #000;
+    background-color: #fffcc4
+}
+
+.food-grape {
+    color: #fff;
+    background-color: #6c3461
+}
+
+.food-kiwi {
+    color: #000;
+    background-color: #8ee53f
+}
+
+.food-lemon {
+    color: #000;
+    background-color: #fdff52
+}
+
+.food-lime {
+    color: #000;
+    background-color: #bffe28
+}
+
+.food-mango {
+    color: #fff;
+    background-color: #ffa62b
+}
+
+.food-mushroom {
+    color: #fff;
+    background-color: #ba9e88
+}
+
+.food-mustard {
+    color: #fff;
+    background-color: #ceb301
+}
+
+.food-mint {
+    color: #000;
+    background-color: #c0fa8b
+}
+
+.food-olive {
+    color: #fff;
+    background-color: #6e750e
+}
+
+.food-orange {
+    color: #fff;
+    background-color: #f97306
+}
+
+.food-pea {
+    color: #fff;
+    background-color: #a4bf20
+}
+
+.food-peach {
+    color: #fff;
+    background-color: #ffb07c
+}
+
+.food-pear {
+    color: #000;
+    background-color: #cbf85f
+}
+
+.food-pistachio {
+    color: #000;
+    background-color: #c0fa8b
+}
+
+.food-plum {
+    color: #fff;
+    background-color: #3f012c
+}
+
+.food-pomegranate {
+    color: #fff;
+    background-color: #c0392b
+}
+
+.food-pumpkin {
+    color: #fff;
+    background-color: #d35400
+}
+
+.food-raspberry {
+    color: #fff;
+    background-color: #b00149
+}
+
+.food-saffron {
+    color: #fff;
+    background-color: #feb209
+}
+
+.food-salmon {
+    color: #fff;
+    background-color: #ff796c
+}
+
+.food-spearmint {
+    color: #000;
+    background-color: #1ef876
+}
+
+.food-squash {
+    color: #fff;
+    background-color: #f2ab15
+}
+
+.food-strawberry {
+    color: #fff;
+    background-color: #fb2943
+}
+
+.food-tomato {
+    color: #fff;
+    background-color: #ec2d01
+}
+
+.food-wheat {
+    color: #000;
+    background-color: #fbdd7e
+}
+
+.food-wine {
+    color: #fff;
+    background-color: #80013f
+}
+
+
+.sur-food-apple {
+    color: #000;
+    background-color: #76cd26
+}
+
+.sur-food-aspargus {
+    color: #fff;
+    background-color: #77ab56
+}
+
+.sur-food-apricot {
+    color: #fff;
+    background-color: #ffb16d
+}
+
+.sur-food-aubergine {
+    color: #fff;
+    background-color: #3d0734
+}
+
+.sur-food-avocado {
+    color: #fff;
+    background-color: #87a922
+}
+
+.sur-food-banana {
+    color: #000;
+    background-color: #fafe4b
+}
+
+.sur-food-butter {
+    color: #000;
+    background-color: #ffff81
+}
+
+.sur-food-blueberry {
+    color: #fff;
+    background-color: #464196
+}
+
+.sur-food-carrot {
+    color: #fff;
+    background-color: #e67e22
+}
+
+.sur-food-cherry {
+    color: #fff;
+    background-color: #cf0234
+}
+
+.sur-food-chocolate {
+    color: #fff;
+    background-color: #411900
+}
+
+.sur-food-cranberry {
+    color: #fff;
+    background-color: #9e003a
+}
+
+.sur-food-coffee {
+    color: #fff;
+    background-color: #a6814c
+}
+
+.sur-food-egg {
+    color: #000;
+    background-color: #fffcc4
+}
+
+.sur-food-grape {
+    color: #fff;
+    background-color: #6c3461
+}
+
+.sur-food-kiwi {
+    color: #000;
+    background-color: #8ee53f
+}
+
+.sur-food-lemon {
+    color: #000;
+    background-color: #fdff52
+}
+
+.sur-food-lime {
+    color: #000;
+    background-color: #bffe28
+}
+
+.sur-food-mango {
+    color: #fff;
+    background-color: #ffa62b
+}
+
+.sur-food-mushroom {
+    color: #fff;
+    background-color: #ba9e88
+}
+
+.sur-food-mustard {
+    color: #fff;
+    background-color: #ceb301
+}
+
+.sur-food-mint {
+    color: #000;
+    background-color: #c0fa8b
+}
+
+.sur-food-olive {
+    color: #fff;
+    background-color: #6e750e
+}
+
+.sur-food-orange {
+    color: #fff;
+    background-color: #f97306
+}
+
+.sur-food-pea {
+    color: #fff;
+    background-color: #a4bf20
+}
+
+.sur-food-peach {
+    color: #fff;
+    background-color: #ffb07c
+}
+
+.sur-food-pear {
+    color: #000;
+    background-color: #cbf85f
+}
+
+.sur-food-pistachio {
+    color: #000;
+    background-color: #c0fa8b
+}
+
+.sur-food-plum {
+    color: #fff;
+    background-color: #3f012c
+}
+
+.sur-food-pomegranate {
+    color: #fff;
+    background-color: #c0392b
+}
+
+.sur-food-pumpkin {
+    color: #fff;
+    background-color: #d35400
+}
+
+.sur-food-raspberry {
+    color: #fff;
+    background-color: #b00149
+}
+
+.sur-food-saffron {
+    color: #fff;
+    background-color: #feb209
+}
+
+.sur-food-salmon {
+    color: #fff;
+    background-color: #ff796c
+}
+
+.sur-food-spearmint {
+    color: #000;
+    background-color: #1ef876
+}
+
+.sur-food-squash {
+    color: #fff;
+    background-color: #f2ab15
+}
+
+.sur-food-strawberry {
+    color: #fff;
+    background-color: #fb2943
+}
+
+.sur-food-tomato {
+    color: #fff;
+    background-color: #ec2d01
+}
+
+.sur-food-wheat {
+    color: #000;
+    background-color: #fbdd7e
+}
+
+.sur-food-wine {
+    color: #fff;
+    background-color: #80013f
+}
+
+
+
+.txt-food-apple {
+    color: #76cd26
+}
+
+.txt-food-aspargus {
+    color: #77ab56
+}
+
+.txt-food-apricot {
+    color: #ffb16d
+}
+
+.txt-food-aubergine {
+    color: #3d0734
+}
+
+.txt-food-avocado {
+    color: #87a922
+}
+
+.txt-food-banana {
+    color: #fafe4b
+}
+
+.txt-food-butter {
+    color: #ffff81
+}
+
+.txt-food-blueberry {
+    color: #464196
+}
+
+.txt-food-carrot {
+    color: #e67e22
+}
+
+.txt-food-cherry {
+    color: #cf0234
+}
+
+.txt-food-chocolate {
+    color: #411900
+}
+
+.txt-food-cranberry {
+    color: #9e003a
+}
+
+.txt-food-coffee {
+    color: #a6814c
+}
+
+.txt-food-egg {
+    color: #fffcc4
+}
+
+.txt-food-grape {
+    color: #6c3461
+}
+
+.txt-food-kiwi {
+    color: #8ee53f
+}
+
+.txt-food-lemon {
+    color: #fdff52
+}
+
+.txt-food-lime {
+    color: #bffe28
+}
+
+.txt-food-mango {
+    color: #ffa62b
+}
+
+.txt-food-mushroom {
+    color: #ba9e88
+}
+
+.txt-food-mustard {
+    color: #ceb301
+}
+
+.txt-food-mint {
+    color: #c0fa8b
+}
+
+.txt-food-olive {
+    color: #6e750e
+}
+
+.txt-food-orange {
+    color: #f97306
+}
+
+.txt-food-pea {
+    color: #a4bf20
+}
+
+.txt-food-peach {
+    color: #ffb07c
+}
+
+.txt-food-pear {
+    color: #cbf85f
+}
+
+.txt-food-pistachio {
+    color: #c0fa8b
+}
+
+.txt-food-plum {
+    color: #3f012c
+}
+
+.txt-food-pomegranate {
+    color: #c0392b
+}
+
+.txt-food-pumpkin {
+    color: #d35400
+}
+
+.txt-food-raspberry {
+    color: #b00149
+}
+
+.txt-food-saffron {
+    color: #feb209
+}
+
+.txt-food-salmon {
+    color: #ff796c
+}
+
+.txt-food-spearmint {
+    color: #1ef876
+}
+
+.txt-food-squash {
+    color: #f2ab15
+}
+
+.txt-food-strawberry {
+    color: #fb2943
+}
+
+.txt-food-tomato {
+    color: #ec2d01
+}
+
+.txt-food-wheat {
+    color: #fbdd7e
+}
+
+.txt-food-wine {
+    color: #80013f
+}
+
+.sur-txt-food-apple {
+    color: #76cd26
+}
+
+.sur-txt-food-aspargus {
+    color: #77ab56
+}
+
+.sur-txt-food-apricot {
+    color: #ffb16d
+}
+
+.sur-txt-food-aubergine {
+    color: #3d0734
+}
+
+.sur-txt-food-avocado {
+    color: #87a922
+}
+
+.sur-txt-food-banana {
+    color: #fafe4b
+}
+
+.sur-txt-food-butter {
+    color: #ffff81
+}
+
+.sur-txt-food-blueberry {
+    color: #464196
+}
+
+.sur-txt-food-carrot {
+    color: #e67e22
+}
+
+.sur-txt-food-cherry {
+    color: #cf0234
+}
+
+.sur-txt-food-chocolate {
+    color: #411900
+}
+
+.sur-txt-food-cranberry {
+    color: #9e003a
+}
+
+.sur-txt-food-coffee {
+    color: #a6814c
+}
+
+.sur-txt-food-egg {
+    color: #fffcc4
+}
+
+.sur-txt-food-grape {
+    color: #6c3461
+}
+
+.sur-txt-food-kiwi {
+    color: #8ee53f
+}
+
+.sur-txt-food-lemon {
+    color: #fdff52
+}
+
+.sur-txt-food-lime {
+    color: #bffe28
+}
+
+.sur-txt-food-mango {
+    color: #ffa62b
+}
+
+.sur-txt-food-mushroom {
+    color: #ba9e88
+}
+
+.sur-txt-food-mustard {
+    color: #ceb301
+}
+
+.sur-txt-food-mint {
+    color: #c0fa8b
+}
+
+.sur-txt-food-olive {
+    color: #6e750e
+}
+
+.sur-txt-food-orange {
+    color: #f97306
+}
+
+.sur-txt-food-pea {
+    color: #a4bf20
+}
+
+.sur-txt-food-peach {
+    color: #ffb07c
+}
+
+.sur-txt-food-pear {
+    color: #cbf85f
+}
+
+.sur-txt-food-pistachio {
+    color: #c0fa8b
+}
+
+.sur-txt-food-plum {
+    color: #3f012c
+}
+
+.sur-txt-food-pomegranate {
+    color: #c0392b
+}
+
+.sur-txt-food-pumpkin {
+    color: #d35400
+}
+
+.sur-txt-food-raspberry {
+    color: #b00149
+}
+
+.sur-txt-food-saffron {
+    color: #feb209
+}
+
+.sur-txt-food-salmon {
+    color: #ff796c
+}
+
+.sur-txt-food-spearmint {
+    color: #1ef876
+}
+
+.sur-txt-food-squash {
+    color: #f2ab15
+}
+
+.sur-txt-food-strawberry {
+    color: #fb2943
+}
+
+.sur-txt-food-tomato {
+    color: #ec2d01
+}
+
+.sur-txt-food-wheat {
+    color: #fbdd7e
+}
+
+.sur-txt-food-wine {
+    color: #80013f
+}
+
+.win8-lime {
+    color: #fff;
+    background-color: #a4c400
+}
+
+.win8-green {
+    color: #fff;
+    background-color: #60a917
+}
+
+.win8-emerald {
+    color: #fff;
+    background-color: #008a00
+}
+
+.win8-teal {
+    color: #fff;
+    background-color: #00aba9
+}
+
+.win8-cyan {
+    color: #fff;
+    background-color: #1ba1e2
+}
+
+.win8-blue {
+    color: #fff;
+    background-color: #3e65ff
+}
+
+.win8-cobalt {
+    color: #fff;
+    background-color: #0050ef
+}
+
+.win8-indigo {
+    color: #fff;
+    background-color: #6a00ff
+}
+
+.win8-violet {
+    color: #fff;
+    background-color: #aa00ff
+}
+
+.win8-pink {
+    color: #fff;
+    background-color: #f472d0
+}
+
+.win8-magenta {
+    color: #fff;
+    background-color: #d80073
+}
+
+.win8-crimson {
+    color: #fff;
+    background-color: #a20025
+}
+
+.win8-red {
+    color: #fff;
+    background-color: #e51400
+}
+
+.win8-orange {
+    color: #fff;
+    background-color: #fa6800
+}
+
+.win8-amber {
+    color: #fff;
+    background-color: #f0a30a
+}
+
+.win8-yellow {
+    color: #fff;
+    background-color: #e3c800
+}
+
+.win8-brown {
+    color: #fff;
+    background-color: #825a2c
+}
+
+.win8-olive {
+    color: #fff;
+    background-color: #6d8764
+}
+
+.win8-steel {
+    color: #fff;
+    background-color: #647687
+}
+
+.win8-mauve {
+    color: #fff;
+    background-color: #76608a
+}
+
+.win8-taupe {
+    color: #fff;
+    background-color: #87794e
+}
+
+.win8-sienna {
+    color: #fff;
+    background-color: #a0522d
+}
+
+.sur-win8-lime {
+    color: #fff;
+    background-color: #a4c400
+}
+
+.sur-win8-green {
+    color: #fff;
+    background-color: #60a917
+}
+
+.sur-win8-emerald {
+    color: #fff;
+    background-color: #008a00
+}
+
+.sur-win8-teal {
+    color: #fff;
+    background-color: #00aba9
+}
+
+.sur-win8-cyan {
+    color: #fff;
+    background-color: #1ba1e2
+}
+
+.sur-win8-blue {
+    color: #fff;
+    background-color: #3e65ff
+}
+
+.sur-win8-cobalt {
+    color: #fff;
+    background-color: #0050ef
+}
+
+.sur-win8-indigo {
+    color: #fff;
+    background-color: #6a00ff
+}
+
+.sur-win8-violet {
+    color: #fff;
+    background-color: #aa00ff
+}
+
+.sur-win8-pink {
+    color: #fff;
+    background-color: #f472d0
+}
+
+.sur-win8-magenta {
+    color: #fff;
+    background-color: #d80073
+}
+
+.sur-win8-crimson {
+    color: #fff;
+    background-color: #a20025
+}
+
+.sur-win8-red {
+    color: #fff;
+    background-color: #e51400
+}
+
+.sur-win8-orange {
+    color: #fff;
+    background-color: #fa6800
+}
+
+.sur-win8-amber {
+    color: #fff;
+    background-color: #f0a30a
+}
+
+.sur-win8-yellow {
+    color: #fff;
+    background-color: #e3c800
+}
+
+.sur-win8-brown {
+    color: #fff;
+    background-color: #825a2c
+}
+
+.sur-win8-olive {
+    color: #fff;
+    background-color: #6d8764
+}
+
+.sur-win8-steel {
+    color: #fff;
+    background-color: #647687
+}
+
+.sur-win8-mauve {
+    color: #fff;
+    background-color: #76608a
+}
+
+.sur-win8-taupe {
+    color: #fff;
+    background-color: #87794e
+}
+
+.sur-win8-sienna {
+    color: #fff;
+    background-color: #a0522d
+}
+
+
+
+.sur-txt-win8-lime {
+    color: #a4c400
+}
+
+.sur-txt-win8-green {
+    color: #60a917
+}
+
+.sur-txt-win8-emerald {
+    color: #008a00
+}
+
+.sur-txt-win8-teal {
+    color: #00aba9
+}
+
+.sur-txt-win8-cyan {
+    color: #1ba1e2
+}
+
+.sur-txt-win8-blue {
+    color: #3e65ff
+}
+
+.sur-txt-win8-cobalt {
+    color: #0050ef
+}
+
+.sur-txt-win8-indigo {
+    color: #6a00ff
+}
+
+.sur-txt-win8-violet {
+    color: #aa00ff
+}
+
+.sur-txt-win8-pink {
+    color: #f472d0
+}
+
+.sur-txt-win8-magenta {
+    color: #d80073
+}
+
+.sur-txt-win8-crimson {
+    color: #a20025
+}
+
+.sur-txt-win8-red {
+    color: #e51400
+}
+
+.sur-txt-win8-orange {
+    color: #fa6800
+}
+
+.sur-txt-win8-amber {
+    color: #f0a30a
+}
+
+.sur-txt-win8-yellow {
+    color: #e3c800
+}
+
+.sur-txt-win8-brown {
+    color: #825a2c
+}
+
+.sur-txt-win8-olive {
+    color: #6d8764
+}
+
+.sur-txt-win8-steel {
+    color: #647687
+}
+
+.sur-txt-win8-mauve {
+    color: #76608a
+}
+
+.sur-txt-win8-taupe {
+    color: #87794e
+}
+
+.sur-txt-win8-sienna {
+    color: #a0522d
+}
+
+.txt-win8-lime {
+    color: #a4c400
+}
+
+.txt-win8-green {
+    color: #60a917
+}
+
+.txt-win8-emerald {
+    color: #008a00
+}
+
+.txt-win8-teal {
+    color: #00aba9
+}
+
+.txt-win8-cyan {
+    color: #1ba1e2
+}
+
+.txt-win8-blue {
+    color: #3e65ff
+}
+
+.txt-win8-cobalt {
+    color: #0050ef
+}
+
+.txt-win8-indigo {
+    color: #6a00ff
+}
+
+.txt-win8-violet {
+    color: #aa00ff
+}
+
+.txt-win8-pink {
+    color: #f472d0
+}
+
+.txt-win8-magenta {
+    color: #d80073
+}
+
+.txt-win8-crimson {
+    color: #a20025
+}
+
+.txt-win8-red {
+    color: #e51400
+}
+
+.txt-win8-orange {
+    color: #fa6800
+}
+
+.txt-win8-amber {
+    color: #f0a30a
+}
+
+.txt-win8-yellow {
+    color: #e3c800
+}
+
+.txt-win8-brown {
+    color: #825a2c
+}
+
+.txt-win8-olive {
+    color: #6d8764
+}
+
+.txt-win8-steel {
+    color: #647687
+}
+
+.txt-win8-mauve {
+    color: #76608a
+}
+
+.txt-win8-taupe {
+    color: #87794e
+}
+
+.txt-win8-sienna {
+    color: #a0522d
+}
+
+
+.bor-amber,
+.sur-bor-amber:hover {
+    border-color: #ffc107 !important
+}
+
+.bor-aqua,
+.sur-bor-aqua:hover {
+    border-color: #00ffff !important
+}
+
+.bor-blue,
+.sur-bor-blue:hover {
+    border-color: #2196F3 !important
+}
+
+.bor-light-blue,
+.sur-bor-light-blue:hover {
+    border-color: #87CEEB !important
+}
+
+.bor-brown,
+.sur-bor-brown:hover {
+    border-color: #795548 !important
+}
+
+.bor-cyan,
+.sur-bor-cyan:hover {
+    border-color: #00bcd4 !important
+}
+
+.bor-blue-grey,
+.sur-bor-blue-grey:hover,
+.bor-blue-gray,
+.sur-bor-blue-gray:hover {
+    border-color: #607d8b !important
+}
+
+.bor-green,
+.sur-bor-green:hover {
+    border-color: #4CAF50 !important
+}
+
+.bor-light-green,
+.sur-bor-light-green:hover {
+    border-color: #8bc34a !important
+}
+
+.bor-indigo,
+.sur-bor-indigo:hover {
+    border-color: #3f51b5 !important
+}
+
+.bor-khaki,
+.sur-bor-khaki:hover {
+    border-color: #f0e68c !important
+}
+
+.bor-lime,
+.sur-bor-lime:hover {
+    border-color: #cddc39 !important
+}
+
+.bor-orange,
+.sur-bor-orange:hover {
+    border-color: #ff9800 !important
+}
+
+.bor-deep-orange,
+.sur-bor-deep-orange:hover {
+    border-color: #ff5722 !important
+}
+
+.bor-pink,
+.sur-bor-pink:hover {
+    border-color: #e91e63 !important
+}
+
+.bor-purple,
+.sur-bor-purple:hover {
+    border-color: #9c27b0 !important
+}
+
+.bor-deep-purple,
+.sur-bor-deep-purple:hover {
+    border-color: #673ab7 !important
+}
+
+.bor-red,
+.sur-bor-red:hover {
+    border-color: #f44336 !important
+}
+
+.bor-cherry,
+.sur-bor-cherry:hover {
+    border-color: #880808 !important
+}
+
+.bor-sand,
+.sur-bor-sand:hover {
+    border-color: #fdf5e6 !important
+}
+
+.bor-teal,
+.sur-bor-teal:hover {
+    border-color: #009688 !important
+}
+
+.bor-yellow,
+.sur-bor-yellow:hover {
+    border-color: #ffeb3b !important
+}
+
+.bor-white,
+.sur-bor-white:hover {
+    border-color: #fff !important
+}
+
+.bor-black,
+.sur-bor-black:hover {
+    border-color: #000 !important
+}
+
+.bor-grey,
+.sur-bor-grey:hover,
+.bor-gray,
+.sur-bor-gray:hover {
+    border-color: #9e9e9e !important
+}
+
+.bor-light-grey,
+.sur-bor-light-grey:hover,
+.bor-light-gray,
+.sur-bor-light-gray:hover {
+    border-color: #f1f1f1 !important
+}
+
+.bor-dark-grey,
+.sur-bor-dark-grey:hover,
+.bor-dark-gray,
+.sur-bor-dark-gray:hover {
+    border-color: #616161 !important
+}
+
+.bor-pale-red,
+.sur-bor-pale-red:hover {
+    border-color: #ffe7e7 !important
+}
+
+.bor-pale-green,
+.sur-bor-pale-green:hover {
+    border-color: #e7ffe7 !important
+}
+
+.bor-pale-yellow,
+.sur-bor-pale-yellow:hover {
+    border-color: #ffffcc !important
+}
+
+.bor-pale-blue,
+.sur-bor-pale-blue:hover {
+    border-color: #e7ffff !important
+}
+
+.bor-grisb,
+.sur-bor-grisb:hover {
+    border-color: #F3F3FB !important
 }
 
 .glass {
     background: white;
-    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
     z-index: 2;
     backdrop-filter: blur(2rem);
@@ -1800,14 +3669,14 @@ a {
 }
 
 .anim-typing {
-    animation: typing-text 2s steps(25),blink 0.5s infinite alternate ;
+    animation: typing-text 2s steps(25), blink 0.5s infinite alternate;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 3px solid #000 ;
+    border-right: 3px solid #000;
 }
 
 .anim-blink {
-    animation: blink 0.5s infinite alternate,color 3s alternate;
+    animation: blink 0.5s infinite alternate, color 3s alternate;
 }
 
 /* les animations css*/
@@ -1953,7 +3822,7 @@ a {
  *  STYLE 1
  */
 .scroller-1::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: #F5F5F5;
 }
@@ -1965,7 +3834,7 @@ a {
 
 .scroller-1::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #555;
 }
 
@@ -1973,7 +3842,7 @@ a {
  *  STYLE 2
  */
 .scroller-2::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: #F5F5F5;
 }
@@ -1985,7 +3854,7 @@ a {
 
 .scroller-2::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #D62929;
 }
 
@@ -1993,7 +3862,7 @@ a {
  *  STYLE 3
  */
 .scroller-3::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #F5F5F5;
 }
 
@@ -2010,7 +3879,7 @@ a {
  *  STYLE 4
  */
 #scroller-4::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #F5F5F5;
 }
 
@@ -2028,7 +3897,7 @@ a {
  *  STYLE 5
  */
 #scroller-5::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #F5F5F5;
 }
 
@@ -2046,7 +3915,7 @@ a {
  *  STYLE 6
  */
 #scroller-6::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #F5F5F5;
 }
 
@@ -2064,7 +3933,7 @@ a {
  *  STYLE 7
  */
 #scroller-7::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #F5F5F5;
     border-radius: 10px;
 }
@@ -2076,7 +3945,7 @@ a {
 
 #scroller-7::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(122,153,217)), color-stop(0.72, rgb(73,125,189)), color-stop(0.86, rgb(28,58,148)));
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(122, 153, 217)), color-stop(0.72, rgb(73, 125, 189)), color-stop(0.86, rgb(28, 58, 148)));
 }
 
 /*
@@ -2100,7 +3969,7 @@ a {
  *  STYLE 9
  */
 #scroller-9::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #F5F5F5;
 }
 
@@ -2118,7 +3987,7 @@ a {
  *  STYLE 10
  */
 #scroller-10::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #F5F5F5;
     border-radius: 10px;
 }
@@ -2138,7 +4007,7 @@ a {
  *  STYLE 11
  */
 #scroller-11::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #F5F5F5;
     border-radius: 10px;
 }
@@ -2158,7 +4027,7 @@ a {
  *  STYLE 12
  */
 #scroller-12::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     background-color: #444444;
 }
@@ -2178,7 +4047,7 @@ a {
  *  STYLE 13
  */
 #scroller-13::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     background-color: #CCCCCC;
 }
@@ -2198,7 +4067,7 @@ a {
  *  STYLE 14
  */
 #scroller-14::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
     background-color: #CCCCCC;
 }
 
@@ -2216,7 +4085,7 @@ a {
  *  STYLE 15
  */
 #scroller-15::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     background-color: #F5F5F5;
     border-radius: 10px;
 }
@@ -2229,14 +4098,14 @@ a {
 #scroller-15::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: #FFF;
-    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#4D9C41), to(#19911D), color-stop(.6,#54DE5D))
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#4D9C41), to(#19911D), color-stop(.6, #54DE5D))
 }
 
 /*
  *  STYLE 16
  */
 #scroller-16::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     background-color: #F5F5F5;
     border-radius: 10px;
 }
@@ -2256,7 +4125,7 @@ a {
  *  STYLE 17
  */
 #scroller-17::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #F5F5F5;
     border-radius: 10px;
 }
