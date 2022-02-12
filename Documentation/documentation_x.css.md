@@ -1,4 +1,5 @@
-![Logo X.css](Img/x.png)
+<img src="Img/x.png" alt="Logo X.css" width="200">
+
 ***x.css, la performence dans la simplicité***
 
 #Documentation sur x.css
