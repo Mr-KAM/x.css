@@ -1,4 +1,4 @@
-![Logo X.css](/Img/x.png)
+![Logo X.css](Img/x.png)
 ***x.css, la performence dans la simplicité***
 
 #Documentation sur x.css
