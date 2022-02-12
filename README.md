@@ -1,5 +1,7 @@
-![Logo X.css](Documentation/Img/x.png)
-***x.css, la performence dans la simplicité***
+<div align="center">
+  <img src="Img/x.png" alt="Logo X.css" width="300">
+***x.css, la performence dans la simplicité !***
+</div>
 
 # 1. x.css, c'est quoi ?<a id="1"></a>
 
