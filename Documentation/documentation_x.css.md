@@ -1,7 +1,10 @@
-<img src="Img/x.png" alt="Logo X.css" width="200">
+<div align="center">
+  <img src="Img/x.png" alt="Logo X.css" width="200">
 
 ***x.css, la performence dans la simplicité***
+</div>
 
+</center>
 #Documentation sur x.css
 
 # 1. Les couleurs
